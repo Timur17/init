@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "cd /etc/ssh"
+echo "ssh_host_rsa_key and ssh_host_rsa_key.pub"

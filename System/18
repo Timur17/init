@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "/etc/init.d/ssh stop"

@@ -1,2 +1,2 @@
-#! bin/bash
-arp -ai en0
+#!/bin/bash
+arp -ai en0 | awk '{print $2}'

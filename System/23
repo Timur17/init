@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "useradd user_name"
+echo "passwd user_name"

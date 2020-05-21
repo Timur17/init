@@ -1,34 +1,6 @@
-
-#
-# ARIN WHOIS data and services are subject to the Terms of Use
-# available at: https://www.arin.net/resources/registry/whois/tou/
-#
-# If you see inaccuracies in the results, please report at
-# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
-#
-# Copyright 1997-2019, American Registry for Internet Numbers, Ltd.
-#
-
-
-#
-# Query terms are ambiguous.  The query is assumed to be:
-#     "n 54.192.230.162"
-#
-# Use "?" to get help.
-#
-
-Amazon Technologies Inc. AMAZON-2011L (NET-54-192-0-0-1) 54.192.0.0 - 54.207.255.255
-Amazon.com, Inc. AMAZO-CF2 (NET-54-192-0-0-2) 54.192.0.0 - 54.192.255.255
-
-
-
-#
-# ARIN WHOIS data and services are subject to the Terms of Use
-# available at: https://www.arin.net/resources/registry/whois/tou/
-#
-# If you see inaccuracies in the results, please report at
-# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
-#
-# Copyright 1997-2019, American Registry for Internet Numbers, Ltd.
-#
-
+#!/bin/bash
+echo "whois slash16.org | grep "Name Server""
+echo "Name Server: NS-1236.AWSDNS-26.ORG
+Name Server: NS-144.AWSDNS-18.COM
+Name Server: NS-686.AWSDNS-21.NET
+Name Server: NS-1989.AWSDNS-56.CO.UK"
